@@ -1,0 +1,2 @@
+//credit to uahim
+var t="";$=function(a){return document.getElementsByTagName(a)};for(var i=0,l=__preloadedData.initialData.data.article.sprinkledBody.content.length;i<l;++i){var a=__preloadedData.initialData.data.article.sprinkledBody;"ParagraphBlock"==a.content[i].__typename&&(t+='<p class="css-at9mc1 evys1bk0">'+a.content[i].content[0].text+"</p><br /><br />")}$("body")[0].innerHTML='<blockquote style="padding:255px"><p class="css-at9mc1 evys1bk0">'+$("header")[1].innerHTML+t+"</p></blockquote>";
